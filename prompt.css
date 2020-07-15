@@ -1,0 +1,39 @@
+html{
+    padding: 30px;
+    text-align: center;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, orange,yellow );
+}
+
+#prompt{
+    border-radius: 10px;
+    background-color:white;
+    padding: 17px;
+    border:2px solid;
+    margin-top: 115px;
+    
+    box-shadow: 5px 5px 8px  #535352;
+}
+h1{
+    text-decoration: underline;
+    font-size: 40px;
+    
+}
+input{
+    font-size: larger;
+}
+button{
+    font-size: larger;
+    padding:5px 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: chartreuse;
+    
+}
+button:focus{
+    outline: 0;
+
+}
+#error_label{
+    color:red;
+    opacity: 0;
+}
